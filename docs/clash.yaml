@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-14T22:46:12.952061+00:00'
+generated-at: '2026-08-14T23:10:33.426115+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 202.146.222.89
@@ -167,23 +167,6 @@ proxies:
   servername: mgxui.peng.mom
   client-fingerprint: chrome
   network: tcp
-- name: 🇺🇸 美国 | USA 27
-  server: www.true.th
-  port: 80
-  type: vmess
-  uuid: a150d554-e962-4632-829f-ee583ada3f95
-  alterId: 0
-  cipher: auto
-  tls: false
-  alpn:
-  - ''
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /htun
-    headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
-  udp: true
 - name: 🇺🇸 美国 | USA 14
   server: 104.16.248.48
   port: 443
@@ -592,7 +575,6 @@ proxy-groups:
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 2
   - 🇳🇱 荷兰 | NLD 7
@@ -652,7 +634,6 @@ proxy-groups:
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
@@ -662,12 +643,12 @@ proxy-groups:
   proxies:
   - 🇨🇦 加拿大 | CAN
   - 🇺🇸 美国 | USA 14
-  - 🇨🇦 加拿大 | CAN 3
-  - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 30
-  - 🇨🇦 加拿大 | CAN 2
+  - 🇺🇸 美国 | USA 17
+  - 🇨🇦 加拿大 | CAN 3
   - 🇺🇸 美国 | USA 26
+  - 🇺🇸 美国 | USA 2
+  - 🇨🇦 加拿大 | CAN 2
   - 🇵🇱 波兰 | POL 2
   url: http://www.gstatic.com/generate_204
   interval: 120
