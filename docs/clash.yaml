@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-14T18:12:08.991162+00:00'
+generated-at: '2026-08-14T19:25:24.138518+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 202.146.222.89
@@ -120,6 +120,15 @@ proxies:
   sni: xship.top
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸 美国 | USA
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.top
+  auth: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 17
   server: 104.19.214.98
   port: 2087
@@ -133,29 +142,6 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  udp: true
-- name: 🇺🇸 美国 | USA
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.top
-  auth: https://xship.top
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 14
-  server: 104.16.248.48
-  port: 443
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
   udp: true
 - name: 🇺🇸 美国 | USA 15
   server: pg-usa-bot.gigatapbot.top
@@ -180,6 +166,20 @@ proxies:
   servername: mgxui.peng.mom
   client-fingerprint: chrome
   network: tcp
+- name: 🇺🇸 美国 | USA 14
+  server: 104.16.248.48
+  port: 443
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: true
+  servername: hhlfy.twiladaphne.ndjp.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  udp: true
 - name: 🇺🇸 美国 | USA 27
   server: www.true.th
   port: 80
@@ -214,6 +214,22 @@ proxies:
     path: /
     host: play.googleapis.com
     mode: auto
+  udp: true
+- name: 🇺🇸 美国 | USA 2
+  server: 157.254.227.163
+  port: 443
+  type: vmess
+  uuid: eba24d1d-0c2b-4b67-862f-cae68626f3fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  alpn:
+  - ''
+  skip-cert-verify: true
+  servername: xc166.meiziba5566.com
+  network: ws
+  ws-opts:
+    path: /cae68626f3fa
   udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: pro-crane.rooster465.autos
@@ -281,14 +297,6 @@ proxies:
     headers:
       Host: vod.ensf.top
   udp: true
-- name: 🇳🇱 荷兰 | NLD
-  server: 92.5.239.29
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
-  udp: true
 - name: 🇨🇿 捷克 | CZE
   server: 103.119.18.115
   port: 443
@@ -333,6 +341,14 @@ proxies:
   xhttp-opts:
     path: /
     mode: auto
+  udp: true
+- name: 🇩🇪 德国 | DEU 3
+  server: 164.90.191.172
+  port: 47260
+  type: vless
+  uuid: dbe453d8-112d-4bad-b353-3ccf60044a23
+  tls: false
+  network: tcp
   udp: true
 - name: 🇨🇦 加拿大 | CAN
   server: 51.222.12.127
@@ -380,6 +396,14 @@ proxies:
   tls: false
   network: tcp
   udp: true
+- name: 🇮🇪 爱尔兰 | IRL
+  server: 162.249.124.99
+  port: 8443
+  type: hysteria2
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  sni: mercedes-grape.yyuyy.com
+  skip-cert-verify: true
 - name: 🇵🇱 波兰 | POL
   server: pl4.lckdwn.ru
   port: 443
@@ -464,19 +488,6 @@ proxies:
   auth: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
   sni: pg-de-hy2.gigatapbot.top
   skip-cert-verify: true
-- type: trojan
-  name: 未知TROJAN-230|free-nodes
-  server: 104.19.64.105
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      host: www.calmlunch.com
 - name: 🇩🇪 德国 | DEU 14
   server: 88.198.82.153
   port: 443
@@ -694,27 +705,29 @@ proxy-groups:
   - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 14
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 32
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 28
+  - 🇺🇸 美国 | USA 2
   - 🇳🇱 荷兰 | NLD 7
   - 🇩🇪 德国 | DEU 2
   - 🇮🇳 印度 | IND
   - 🇬🇧 英国 | GBR 4
   - 🇨🇦 加拿大 | CAN 2
   - 🇳🇱 荷兰 | NLD 8
-  - 🇳🇱 荷兰 | NLD
   - 🇨🇿 捷克 | CZE
   - 🇳🇱 荷兰 | NLD 4
   - 🇷🇺 俄罗斯 | RUS
+  - 🇩🇪 德国 | DEU 3
   - 🇨🇦 加拿大 | CAN
   - 🇱🇻 拉脱维亚 | LVA 3
   - 🇩🇪 德国 | DEU 5
   - 🇨🇴 哥伦比亚 | COL 4
+  - 🇮🇪 爱尔兰 | IRL
   - 🇵🇱 波兰 | POL
   - 🇫🇷 法国 | FRA 9
   - 🇩🇪 德国 | DEU 8
@@ -723,7 +736,6 @@ proxy-groups:
   - 🇵🇱 波兰 | POL 2
   - 🇨🇦 加拿大 | CAN 3
   - 🇩🇪 德国 | DEU 13
-  - 未知TROJAN-230|free-nodes
   - 🇩🇪 德国 | DEU 14
   - 🇩🇪 德国 | DEU 4
   - 🇬🇧 英国 | GBR 2
@@ -763,28 +775,29 @@ proxy-groups:
   - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 14
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 32
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 28
+  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 17
-  - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 26
-  - 🇨🇦 加拿大 | CAN 3
-  - 🇳🇱 荷兰 | NLD
-  - 🇷🇺 俄罗斯 | RUS
+  - 🇩🇪 德国 | DEU 3
+  - 🇺🇸 美国 | USA
   - 🇵🇱 波兰 | POL 2
+  - 🇨🇴 哥伦比亚 | COL 4
   - 🇨🇦 加拿大 | CAN 2
-  - 🇳🇱 荷兰 | NLD 7
+  - 🇯🇵 日本 | JPN 2
+  - 🇭🇰 香港 | HKG 3
   - 🇩🇪 德国 | DEU 9
   url: http://www.gstatic.com/generate_204
   interval: 120
