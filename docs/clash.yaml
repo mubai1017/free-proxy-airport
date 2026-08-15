@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-15T00:31:02.107194+00:00'
+generated-at: '2026-08-15T02:06:46.044906+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 16
   server: engaged-lionfish.rooster465.autos
@@ -106,14 +106,6 @@ proxies:
   sni: advanced-ox.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 新加坡 | SGP 5
-  server: master-possum.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  sni: master-possum.rooster465.autos
-  skip-cert-verify: true
-  udp: true
 - name: 🇭🇰 香港 | HKG 3
   server: 95.40.100.129
   port: 10126
@@ -129,6 +121,14 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
+- name: 🇸🇬 新加坡 | SGP 5
+  server: master-possum.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  sni: master-possum.rooster465.autos
+  skip-cert-verify: true
+  udp: true
 - name: 🇯🇵 日本 | JPN 20
   server: living-hagfish.rooster465.autos
   port: 443
@@ -207,6 +207,21 @@ proxies:
   password: FH72359861
   sni: pleased-sawfly.rooster465.autos
   skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港 | HKG 5
+  server: 156.245.232.239
+  port: 35043
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
   udp: true
 - name: 🇯🇵 日本 | JPN 13
   server: grateful-leech.rooster465.autos
@@ -332,6 +347,14 @@ proxies:
     headers:
       Host: c12.com
   udp: true
+- name: 🇺🇸 美国 | USA 16
+  server: neutral-quail.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  sni: neutral-quail.rooster465.autos
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 25
   server: 51.81.223.225
   port: 11094
@@ -345,26 +368,6 @@ proxies:
   servername: www.yahoo.com
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 33
-  server: v24.hdacd.com
-  port: 30824
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  alpn:
-  - ''
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 16
-  server: neutral-quail.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  sni: neutral-quail.rooster465.autos
-  skip-cert-verify: true
   udp: true
 - name: 🇺🇸 美国 | USA 6
   server: 66.42.72.146
@@ -416,15 +419,6 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 36
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.2fa.cat
-  auth: https://xship.2fa.cat
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
 - name: 🇺🇸 美国 | USA
   server: k2.cloud--vpn.site
   port: 443
@@ -457,24 +451,6 @@ proxies:
     headers:
       Host: c12.com
   udp: true
-- name: 🇺🇸 美国 | USA 32
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.top
-  auth: https://xship.top
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 22
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.best
-  auth: https://xship.best
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
 - name: 🇩🇪 德国 | DEU 2
   server: 63.180.184.26
   port: 22223
@@ -504,19 +480,6 @@ proxies:
   type: trojan
   password: FH72359861
   skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国 | DEU 7
-  server: p1real1.greewebservices.ir
-  port: 1230
-  type: vless
-  uuid: 8088b716-70a1-4685-9434-5cee89738af4
-  tls: true
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-    short-id: 9b60d3
-  servername: play.googleapis.com
-  client-fingerprint: ios
-  network: tcp
   udp: true
 - name: 🇰🇷 韩国 | KOR 4
   server: lasting-bobcat.rooster465.autos
@@ -548,6 +511,23 @@ proxies:
     headers:
       Host: crimson-bread-c38e.295.workers.dev
   udp: true
+- name: 🇳🇱 荷兰 | NLD 4
+  server: 37.143.14.18
+  port: 4443
+  type: vless
+  uuid: bf1c1e9b-105b-4b75-bbac-bdab9b7e0750
+  tls: true
+  reality-opts:
+    public-key: z6CzPNecp20sehGM6VjzL2C-vvKXqfiDKbfsTiUbJW0
+    short-id: aaaa
+  servername: max.ru
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /assets/138af071de0075149060ffde
+    host: max.ru
+    mode: packet-up
+  udp: true
 - name: 🇷🇺 俄罗斯 | RUS 3
   server: 185.185.142.79
   port: 2200
@@ -566,6 +546,13 @@ proxies:
   sni: precise-locust.rooster465.autos
   skip-cert-verify: true
   udp: true
+- name: 🇨🇦 加拿大 | CAN
+  server: 142.4.216.225
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ytw2awn
+  udp: true
 - name: 🇷🇺 俄罗斯 | RUS
   server: 45.131.212.49
   port: 443
@@ -578,13 +565,6 @@ proxies:
   servername: sellflow.org
   client-fingerprint: qq
   network: tcp
-  udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 142.4.216.225
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ytw2awn
   udp: true
 - name: 🇩🇪 德国 | DEU 3
   server: 89.167.12.115
@@ -666,16 +646,6 @@ proxies:
   sni: smiling-fowl.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇷🇺 俄罗斯 | RUS 5
-  server: 168.222.140.236
-  port: 4100
-  type: vless
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  tls: false
-  network: ws
-  ws-opts:
-    path: /v1
-  udp: true
 - type: trojan
   name: 未知TROJAN-230|free-nodes
   server: 104.19.64.105
@@ -711,14 +681,6 @@ proxies:
   sni: gentle-platypus.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇹🇭 泰国 | THA
-  server: gorbachev-new-th.kvnfreetest.uk
-  port: 55443
-  type: hysteria2
-  password: 083417772bc618cd61f0cca23dd91680
-  auth: 083417772bc618cd61f0cca23dd91680
-  sni: gorbachev-new-th.kvnfreetest.uk
-  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 2
   server: nl6.o4ka-internet.com
   port: 443
@@ -733,6 +695,14 @@ proxies:
   client-fingerprint: random
   network: tcp
   udp: true
+- name: 🇹🇭 泰国 | THA
+  server: gorbachev-new-th.kvnfreetest.uk
+  port: 55443
+  type: hysteria2
+  password: 083417772bc618cd61f0cca23dd91680
+  auth: 083417772bc618cd61f0cca23dd91680
+  sni: gorbachev-new-th.kvnfreetest.uk
+  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 9
   server: engaging-toucan.rooster465.autos
   port: 443
@@ -835,8 +805,8 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 23
   - 🇯🇵 日本 | JPN 11
   - 🇸🇬 新加坡 | SGP 11
-  - 🇸🇬 新加坡 | SGP 5
   - 🇭🇰 香港 | HKG 3
+  - 🇸🇬 新加坡 | SGP 5
   - 🇯🇵 日本 | JPN 20
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 9
@@ -847,6 +817,7 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 21
   - 🇯🇵 日本 | JPN 14
+  - 🇭🇰 香港 | HKG 5
   - 🇯🇵 日本 | JPN 13
   - 🇸🇬 新加坡 | SGP 3
   - 🇯🇵 日本 | JPN 4
@@ -861,29 +832,25 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 33
   - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 29
-  - 🇺🇸 美国 | USA 36
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 22
   - 🇩🇪 德国 | DEU 2
   - 🇷🇺 俄罗斯 | RUS 4
   - 🇰🇷 韩国 | KOR 2
-  - 🇩🇪 德国 | DEU 7
   - 🇰🇷 韩国 | KOR 4
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD
+  - 🇳🇱 荷兰 | NLD 4
   - 🇷🇺 俄罗斯 | RUS 3
   - 🇰🇷 韩国 | KOR 3
-  - 🇷🇺 俄罗斯 | RUS
   - 🇨🇦 加拿大 | CAN
+  - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 3
   - 🇰🇷 韩国 | KOR 5
   - 🇱🇻 拉脱维亚 | LVA 3
@@ -894,12 +861,11 @@ proxy-groups:
   - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 8
   - 🇫🇷 法国 | FRA 10
-  - 🇷🇺 俄罗斯 | RUS 5
   - 未知TROJAN-230|free-nodes
   - 🇩🇪 德国 | DEU 4
   - 🇰🇷 韩国 | KOR
-  - 🇹🇭 泰国 | THA
   - 🇳🇱 荷兰 | NLD 2
+  - 🇹🇭 泰国 | THA
   - 🇩🇪 德国 | DEU 9
   - 🇱🇻 拉脱维亚 | LVA 2
   - 🇩🇪 德国 | DEU
@@ -916,6 +882,7 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
+  - 🇭🇰 香港 | HKG 5
   - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -949,40 +916,35 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 33
   - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 29
-  - 🇺🇸 美国 | USA 36
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 22
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 29
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 25
-  - 🇳🇱 荷兰 | NLD
+  - 🇺🇸 美国 | USA 29
+  - 🇨🇦 加拿大 | CAN
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 16
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 2
+  - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 5
-  - 🇺🇸 美国 | USA 26
   - 🇩🇪 德国 | DEU 3
-  - 🇯🇵 日本 | JPN 12
-  - 🇯🇵 日本 | JPN 14
-  - 🇯🇵 日本 | JPN 10
-  - 🇯🇵 日本 | JPN 2
-  - 🇯🇵 日本 | JPN 21
+  - 🇮🇪 爱尔兰 | IRL
+  - 🇳🇱 荷兰 | NLD
+  - 🇯🇵 日本 | JPN 20
+  - 🇯🇵 日本 | JPN 13
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 11
+  - 🇯🇵 日本 | JPN 6
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
