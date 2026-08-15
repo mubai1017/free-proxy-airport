@@ -7,22 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-15T17:11:19.206301+00:00'
+generated-at: '2026-08-15T17:42:30.984702+00:00'
 proxies:
-- name: 🇭🇰 香港 | HKG 7
-  server: hy2-tw.starq.me
-  port: 24443
-  type: vless
-  uuid: a68d59e6-bc1e-47ed-91bf-c3e02b18e5df
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 09Cv8GzDb5G9R9MS37ajZQ8o489874sF9umFuNdCeEc
-    short-id: ba2e8b0452447037
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇭🇰 香港 | HKG 6
   server: 156.248.10.58
   port: 443
@@ -35,6 +21,20 @@ proxies:
     short-id: 54fc3827c8
   servername: nono.hhhkkhktt.xyz
   client-fingerprint: safari
+  network: tcp
+  udp: true
+- name: 🇭🇰 香港 | HKG 7
+  server: hy2-tw.starq.me
+  port: 24443
+  type: vless
+  uuid: a68d59e6-bc1e-47ed-91bf-c3e02b18e5df
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 09Cv8GzDb5G9R9MS37ajZQ8o489874sF9umFuNdCeEc
+    short-id: ba2e8b0452447037
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
   network: tcp
   udp: true
 - name: 🇯🇵 日本 | JPN 5
@@ -53,6 +53,13 @@ proxies:
   sni: www.nintendogames.net
   skip-cert-verify: true
   udp: true
+- name: 🇯🇵 日本 | JPN 12
+  server: funny-squid.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  skip-cert-verify: true
+  udp: true
 - name: 🇭🇰 香港 | HKG 4
   server: 43.132.192.16
   port: 9527
@@ -63,21 +70,6 @@ proxies:
   tls: false
   alpn:
   - ''
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 12
-  server: funny-squid.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 10
-  server: endless-kiwi.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  sni: endless-kiwi.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: 🇯🇵 日本 | JPN 11
@@ -94,6 +86,14 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn.lifestyle
+  udp: true
+- name: 🇯🇵 日本 | JPN 10
+  server: endless-kiwi.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  sni: endless-kiwi.rooster465.autos
+  skip-cert-verify: true
   udp: true
 - name: 🇯🇵 日本 | JPN 8
   server: champion-panther.rooster465.autos
@@ -225,20 +225,6 @@ proxies:
   password: FH72359861
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: 154.17.0.91
-  port: 50159
-  type: vless
-  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: qGUBbKjlanqEx7El13jH_mBmDWHZ1a-PmxnwETB-9lM
-    short-id: 2bad4cafb9965963
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国 | USA 20
   server: 104.19.215.97
   port: 2087
@@ -252,6 +238,20 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  udp: true
+- name: 🇺🇸 美国 | USA 11
+  server: 154.17.0.91
+  port: 50159
+  type: vless
+  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: qGUBbKjlanqEx7El13jH_mBmDWHZ1a-PmxnwETB-9lM
+    short-id: 2bad4cafb9965963
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 9
   server: nlgas.hambot.ru
@@ -407,6 +407,14 @@ proxies:
   password: FH72359861
   skip-cert-verify: true
   udp: true
+- name: 🇰🇷 韩国 | KOR 10
+  server: 152-69-231-175.liao.kdns.fr
+  port: 50160
+  type: hysteria2
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  auth: 1beb216e3f60aea9555dae60d219a5ca
+  sni: 152-69-231-175.liao.kdns.fr
+  skip-cert-verify: true
 - name: 🇰🇷 韩国 | KOR 3
   server: complete-narwhal.rooster465.autos
   port: 443
@@ -513,6 +521,13 @@ proxies:
   auth: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   sni: grape-honk.yyuyy.com
   skip-cert-verify: true
+- name: 🇦🇺 澳大利亚 | AUS
+  server: national-stingray.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  sni: national-stingray.rooster465.autos
+  skip-cert-verify: true
 - name: 🇮🇪 爱尔兰 | IRL
   server: 54.216.139.140
   port: 443
@@ -521,13 +536,6 @@ proxies:
   sni: cunning-grub.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇦🇺 澳大利亚 | AUS
-  server: national-stingray.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  sni: national-stingray.rooster465.autos
-  skip-cert-verify: true
 - name: 🇵🇱 波兰 | POL
   server: 94.183.157.121
   port: 443
@@ -678,31 +686,18 @@ proxies:
   password: FH72359861
   sni: loyal-molly.rooster465.autos
   skip-cert-verify: true
-- name: 🇪🇸 西班牙 | ESP
-  server: 185.18.250.252
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 7
   - 🇭🇰 香港 | HKG 6
+  - 🇭🇰 香港 | HKG 7
   - 🇯🇵 日本 | JPN 5
   - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 4
   - 🇯🇵 日本 | JPN 12
-  - 🇯🇵 日本 | JPN 10
+  - 🇭🇰 香港 | HKG 4
   - 🇯🇵 日本 | JPN 11
+  - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 6
@@ -716,8 +711,8 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 11
   - 🇯🇵 日本 | JPN
   - 🇭🇰 香港 | HKG 8
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
@@ -735,6 +730,7 @@ proxy-groups:
   - 🇰🇷 韩国 | KOR 4
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD 4
+  - 🇰🇷 韩国 | KOR 10
   - 🇰🇷 韩国 | KOR 3
   - 🇰🇷 韩国 | KOR 9
   - 🇹🇼 🇨🇳 台湾 | TWN
@@ -747,8 +743,8 @@ proxy-groups:
   - 🇮🇪 爱尔兰 | IRL 2
   - 🇩🇪 德国 | DEU 5
   - 🇨🇳 CN_01
-  - 🇮🇪 爱尔兰 | IRL
   - 🇦🇺 澳大利亚 | AUS
+  - 🇮🇪 爱尔兰 | IRL
   - 🇵🇱 波兰 | POL
   - 🇩🇪 德国 | DEU 8
   - 🇧🇷 巴西 | BRA
@@ -764,14 +760,13 @@ proxy-groups:
   - 🇬🇧 英国 | GBR
   - 🇳🇱 荷兰 | NLD 5
   - 🇰🇷 韩国 | KOR 7
-  - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 7
   - 🇭🇰 香港 | HKG 6
+  - 🇭🇰 香港 | HKG 7
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 5
@@ -787,8 +782,8 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 12
-  - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 11
+  - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 6
@@ -800,8 +795,8 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
@@ -816,19 +811,19 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 6
-  - 🇨🇴 哥伦比亚 | COL
-  - 🇨🇴 哥伦比亚 | COL 2
-  - 🇳🇱 荷兰 | NLD 8
-  - 🇭🇰 香港 | HKG 4
-  - 🇳🇱 荷兰 | NLD 2
   - 🇯🇵 日本 | JPN 11
+  - 🇺🇸 美国 | USA 5
+  - 🇨🇴 哥伦比亚 | COL
+  - 🇺🇸 美国 | USA 22
+  - 🇺🇸 美国 | USA 6
+  - 🇳🇱 荷兰 | NLD 8
+  - 🇳🇱 荷兰 | NLD 2
   - 🇬🇧 英国 | GBR
+  - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 12
   - 🇯🇵 日本 | JPN
-  - 🇺🇸 美国 | USA 5
+  - 🇯🇵 日本 | JPN 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
