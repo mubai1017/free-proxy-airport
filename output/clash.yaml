@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-15T18:53:11.682432+00:00'
+generated-at: '2026-08-15T19:12:54.037407+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: hy2-tw.starq.me
@@ -72,6 +72,14 @@ proxies:
   password: FH72359861
   skip-cert-verify: true
   udp: true
+- name: 🇯🇵 日本 | JPN 10
+  server: endless-kiwi.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  sni: endless-kiwi.rooster465.autos
+  skip-cert-verify: true
+  udp: true
 - name: 🇯🇵 日本 | JPN 11
   server: 151.101.193.242
   port: 443
@@ -86,14 +94,6 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn.lifestyle
-  udp: true
-- name: 🇯🇵 日本 | JPN 10
-  server: endless-kiwi.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  sni: endless-kiwi.rooster465.autos
-  skip-cert-verify: true
   udp: true
 - name: 🇯🇵 日本 | JPN 8
   server: champion-panther.rooster465.autos
@@ -173,14 +173,6 @@ proxies:
   password: FH72359861
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰 香港 | HKG
-  server: 8-210-142-69.liao.kdns.fr
-  port: 50160
-  type: hysteria2
-  password: c2601f6c59ed832f9129533608eea8eb
-  auth: c2601f6c59ed832f9129533608eea8eb
-  sni: 8-210-142-69.liao.kdns.fr
-  skip-cert-verify: true
 - name: 🇭🇰 香港 | HKG 9
   server: 47.239.6.251
   port: 13779
@@ -239,20 +231,6 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: 154.17.0.91
-  port: 50159
-  type: vless
-  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: qGUBbKjlanqEx7El13jH_mBmDWHZ1a-PmxnwETB-9lM
-    short-id: 2bad4cafb9965963
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国 | USA 9
   server: nlgas.hambot.ru
   port: 443
@@ -291,20 +269,14 @@ proxies:
   auth: 4fd8857a2c6af64470191e79500f42d7
   sni: 129-146-143-124.liao.kdns.fr
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 19
-  server: 51.81.223.225
-  port: 11094
-  type: vless
-  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: a356addf
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
+- name: 🇺🇸 美国 | USA 15
+  server: 107-173-165-41.liao.kdns.fr
+  port: 50160
+  type: hysteria2
+  password: 6f6f58431702c3aa0b55ddf3d0a63a2c
+  auth: 6f6f58431702c3aa0b55ddf3d0a63a2c
+  sni: 107-173-165-41.liao.kdns.fr
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 10
   server: 169.40.42.229
   port: 443
@@ -319,14 +291,20 @@ proxies:
   client-fingerprint: ios
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 15
-  server: 107-173-165-41.liao.kdns.fr
-  port: 50160
-  type: hysteria2
-  password: 6f6f58431702c3aa0b55ddf3d0a63a2c
-  auth: 6f6f58431702c3aa0b55ddf3d0a63a2c
-  sni: 107-173-165-41.liao.kdns.fr
-  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 19
+  server: 51.81.223.225
+  port: 11094
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: a356addf
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇺🇸 美国 | USA 22
   server: 35-209-199-239.liao.kdns.fr
   port: 50160
@@ -335,14 +313,6 @@ proxies:
   auth: b41ad7f941ffce755cb8601bfd0f02ca
   sni: 35-209-199-239.liao.kdns.fr
   skip-cert-verify: true
-- name: 🇮🇪 爱尔兰 | IRL 5
-  server: cunning-grub.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  sni: cunning-grub.rooster465.autos
-  skip-cert-verify: true
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: 85.155.226.149
   port: 443
@@ -356,6 +326,14 @@ proxies:
   servername: getsavesafe.net
   client-fingerprint: qq
   network: tcp
+- name: 🇮🇪 爱尔兰 | IRL 5
+  server: cunning-grub.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  sni: cunning-grub.rooster465.autos
+  skip-cert-verify: true
+  udp: true
 - name: 🇰🇷 韩国 | KOR 6
   server: loyal-molly.rooster465.autos
   port: 443
@@ -407,20 +385,6 @@ proxies:
   password: FH72359861
   skip-cert-verify: true
   udp: true
-- name: 🇰🇬 KG_63
-  server: 81.85.75.85
-  port: 443
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-  servername: baltic.cendora.ru
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇰🇷 韩国 | KOR 3
   server: complete-narwhal.rooster465.autos
   port: 443
@@ -460,20 +424,6 @@ proxies:
   auth: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   sni: els1.mangshe.xyz
   skip-cert-verify: true
-- name: 🇩🇪 德国 | DEU 3
-  server: 163.5.153.153
-  port: 443
-  type: vless
-  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
-    short-id: a91045bc
-  servername: www.samsung.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇰🇷 韩国 | KOR 5
   server: key-barnacle.rooster465.autos
   port: 443
@@ -505,6 +455,20 @@ proxies:
   type: trojan
   password: FH72359861
   skip-cert-verify: true
+- name: 🇩🇪 德国 | DEU 5
+  server: 78.159.247.253
+  port: 2027
+  type: vless
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: dc8109baf0f607ea
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇨🇳 CN_01
   server: 139.28.168.55
   port: 9080
@@ -512,6 +476,13 @@ proxies:
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   auth: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   sni: grape-honk.yyuyy.com
+  skip-cert-verify: true
+- name: 🇦🇺 澳大利亚 | AUS
+  server: national-stingray.rooster465.autos
+  port: 443
+  type: trojan
+  password: FH72359861
+  sni: national-stingray.rooster465.autos
   skip-cert-verify: true
 - name: 🇮🇪 爱尔兰 | IRL
   server: 54.216.139.140
@@ -521,13 +492,6 @@ proxies:
   sni: cunning-grub.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇦🇺 澳大利亚 | AUS
-  server: national-stingray.rooster465.autos
-  port: 443
-  type: trojan
-  password: FH72359861
-  sni: national-stingray.rooster465.autos
-  skip-cert-verify: true
 - name: 🇵🇱 波兰 | POL
   server: 94.183.157.121
   port: 443
@@ -556,19 +520,12 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
   udp: true
-- name: 🇵🇱 波兰 | POL 2
-  server: pl-1.p-esmy.icu
-  port: 2066
-  type: vless
-  uuid: 24f8209b-6689-4e7a-b067-f886e04dfc43
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: XIBKbglsQ9pI4eo26LoUkmNxnVqlKtxZRO0H91v3jF0
-    short-id: 1b2a3f
-  servername: ads.x5.ru
-  client-fingerprint: qq
-  network: tcp
+- name: 🇧🇷 巴西 | BRA
+  server: 163.176.56.46
+  port: 59319
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 2f/hSnAF5GDhyve8brmwep/LzS1dKM8uaWRYsvIobFw=
   udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: 212.100.171.149
@@ -578,12 +535,15 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: 🇧🇷 巴西 | BRA
-  server: 163.176.56.46
-  port: 59319
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2f/hSnAF5GDhyve8brmwep/LzS1dKM8uaWRYsvIobFw=
+- name: 🇮🇪 爱尔兰 | IRL 4
+  server: v4.hdacd.com
+  port: 30804
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   udp: true
 - name: 🇰🇷 韩国 | KOR
   server: star-shrimp.rooster465.autos
@@ -599,22 +559,6 @@ proxies:
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: ChsbgW3Or5iKoWxNZQyTSxGx3KIKHjOD+w1t9/MbeeA=
-  udp: true
-- name: 🇨🇴 哥伦比亚 | COL
-  server: 157.137.236.210
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
-  udp: true
-- name: 🇨🇴 哥伦比亚 | COL 2
-  server: 149.130.190.130
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
   udp: true
 - type: vless
   name: 未知VLESS-641|free-nodes
@@ -710,8 +654,8 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇯🇵 日本 | JPN 12
-  - 🇯🇵 日本 | JPN 11
   - 🇯🇵 日本 | JPN 10
+  - 🇯🇵 日本 | JPN 11
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 6
@@ -719,24 +663,22 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 5
   - 🇭🇰 香港 | HKG 10
   - 🇯🇵 日本 | JPN 4
-  - 🇭🇰 香港 | HKG
   - 🇭🇰 香港 | HKG 9
   - 🇸🇬 新加坡 | SGP 2
   - 🇭🇰 香港 | HKG 11
   - 🇯🇵 日本 | JPN
   - 🇭🇰 香港 | HKG 8
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 15
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 22
-  - 🇮🇪 爱尔兰 | IRL 5
   - 🇳🇱 荷兰 | NLD 7
+  - 🇮🇪 爱尔兰 | IRL 5
   - 🇰🇷 韩国 | KOR 6
   - 🇩🇪 德国 | DEU 2
   - 🇳🇱 荷兰 | NLD 8
@@ -744,29 +686,26 @@ proxy-groups:
   - 🇰🇷 韩国 | KOR 4
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD 4
-  - 🇰🇬 KG_63
   - 🇰🇷 韩国 | KOR 3
   - 🇰🇷 韩国 | KOR 9
   - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇰🇷 韩国 | KOR 8
   - 🇷🇺 俄罗斯 | RUS
-  - 🇩🇪 德国 | DEU 3
   - 🇰🇷 韩国 | KOR 5
   - 🇮🇪 爱尔兰 | IRL 6
   - 🇩🇰 丹麦 | DNK
   - 🇮🇪 爱尔兰 | IRL 2
+  - 🇩🇪 德国 | DEU 5
   - 🇨🇳 CN_01
-  - 🇮🇪 爱尔兰 | IRL
   - 🇦🇺 澳大利亚 | AUS
+  - 🇮🇪 爱尔兰 | IRL
   - 🇵🇱 波兰 | POL
   - 🇩🇪 德国 | DEU 8
-  - 🇵🇱 波兰 | POL 2
-  - 🇩🇪 德国 | DEU 4
   - 🇧🇷 巴西 | BRA
+  - 🇩🇪 德国 | DEU 4
+  - 🇮🇪 爱尔兰 | IRL 4
   - 🇰🇷 韩国 | KOR
   - 🇳🇱 荷兰 | NLD 2
-  - 🇨🇴 哥伦比亚 | COL
-  - 🇨🇴 哥伦比亚 | COL 2
   - 未知VLESS-641|free-nodes
   - 🇳🇱 荷兰 | NLD 3
   - 🇮🇪 爱尔兰 | IRL 3
@@ -786,7 +725,6 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 5
   - 🇭🇰 香港 | HKG 10
-  - 🇭🇰 香港 | HKG
   - 🇭🇰 香港 | HKG 9
   - 🇭🇰 香港 | HKG 11
   - 🇭🇰 香港 | HKG 8
@@ -797,8 +735,8 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 12
-  - 🇯🇵 日本 | JPN 11
   - 🇯🇵 日本 | JPN 10
+  - 🇯🇵 日本 | JPN 11
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 6
@@ -811,14 +749,13 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 15
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 22
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -827,18 +764,17 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 19
-  - 🇯🇵 日本 | JPN 11
   - 🇺🇸 美国 | USA 5
-  - 🇨🇴 哥伦比亚 | COL
-  - 🇨🇴 哥伦比亚 | COL 2
-  - 🇺🇸 美国 | USA 10
+  - 🇯🇵 日本 | JPN 11
   - 🇳🇱 荷兰 | NLD 8
-  - 🇺🇸 美国 | USA 6
   - 🇳🇱 荷兰 | NLD 2
+  - 🇭🇰 香港 | HKG 4
   - 🇬🇧 英国 | GBR
   - 🇩🇪 德国 | DEU 4
-  - 🇯🇵 日本 | JPN 8
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 12
+  - 🇯🇵 日本 | JPN 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
