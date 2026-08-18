@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T23:11:19.131678+00:00'
+generated-at: '2026-08-18T23:43:36.783179+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: legible-ocelot.rooster465.autos
@@ -24,13 +24,6 @@ proxies:
   sni: exact-sawfish.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 日本 | JPN 6
-  server: settling-shad.rooster465.autos
-  port: 443
-  type: trojan
-  password: HC04361579
-  sni: settling-shad.rooster465.autos
-  skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 3
   server: 139.180.198.220
   port: 52143
@@ -39,6 +32,13 @@ proxies:
   tls: false
   network: tcp
   udp: true
+- name: 🇯🇵 日本 | JPN 6
+  server: settling-shad.rooster465.autos
+  port: 443
+  type: trojan
+  password: HC04361579
+  sni: settling-shad.rooster465.autos
+  skip-cert-verify: true
 - name: 🇭🇰 香港 | HKG 10
   server: planb.mojcn.com.linuxlh.xin
   port: 16632
@@ -171,13 +171,6 @@ proxies:
   servername: www.yahoo.com
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 7
-  server: 92.5.228.26
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 5Xn2qHoVdu6aJjp6R2KjKrk10+qFniNh5OjKW93TdWk=
   udp: true
 - name: 🇬🇧 英国 | GBR 4
   server: 129.151.77.35
@@ -437,8 +430,8 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 6
   - 🇭🇰 香港 | HKG 10
   - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP 2
@@ -450,7 +443,6 @@ proxy-groups:
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
-  - 🇳🇱 荷兰 | NLD 7
   - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 8
   - 🇳🇱 荷兰 | NLD 4
@@ -487,8 +479,8 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -507,13 +499,13 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 14
   - 🇳🇱 荷兰 | NLD 4
+  - 🇺🇸 美国 | USA 14
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 20
+  - 🇯🇵 日本 | JPN 3
   - 🇳🇱 荷兰 | NLD
-  - 🇬🇧 英国 | GBR 4
-  - 🇬🇧 英国 | GBR 5
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
