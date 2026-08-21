@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-21T12:20:43.730257+00:00'
+generated-at: '2026-08-21T13:24:14.303975+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 3
   server: 54.95.207.148
