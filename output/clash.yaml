@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-21T22:47:24.432315+00:00'
+generated-at: '2026-08-21T23:12:35.314908+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: vip-jp-4.hkd4fwmg.vip
@@ -17,6 +17,13 @@ proxies:
   auth: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
   sni: vip-jp-4.hkd4fwmg.vip
   skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 5
+  server: 95.40.120.162
+  port: 8319
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ljqdalu13..
+  udp: true
 - name: 🇸🇬 新加坡 | SGP
   server: 168.107.84.216
   port: 56927
@@ -210,12 +217,20 @@ proxies:
     headers:
       Host: live.ok.ru
   udp: true
-- name: 🇰🇷 韩国 | KOR 20
-  server: 49.254.204.133
-  port: 1774
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
+- name: 🇫🇮 荷蘭
+  type: vmess
+  server: 185.246.152.159
+  port: 443
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+    headers:
+      Host: apjhdggyx.com
   udp: true
 - name: 🇳🇱_NL荷蘭丨yoyapai.com
   type: ss
@@ -252,14 +267,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇩🇪 德国 | DEU 11
-  server: replay.wwwinternetvideo.click
-  port: 443
-  type: hysteria2
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  sni: replay.wwwinternetvideo.click
-  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 8
   server: node2.onepanel123.ru
   port: 2087
@@ -274,6 +281,14 @@ proxies:
     headers:
       Host: node2.onepanel123.ru
   udp: true
+- name: 🇩🇪 德国 | DEU 11
+  server: replay.wwwinternetvideo.click
+  port: 443
+  type: hysteria2
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  sni: replay.wwwinternetvideo.click
+  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 13
   server: 130.61.85.53
   port: 59924
@@ -311,6 +326,14 @@ proxies:
   auth: l25nJa8z0D5pT6jl
   sni: id-ls-c-4.nebulacloud.win
   skip-cert-verify: true
+- name: 🇰🇷 韩国 | KOR 13
+  server: 150-230-252-217.liao.kdns.fr
+  port: 50160
+  type: hysteria2
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  auth: 9cfc9458e48c028ec03ff86ebc71c744
+  sni: 150-230-252-217.liao.kdns.fr
+  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU
   server: deu0003ntrhy01.tcp-reset-club.net
   port: 443
@@ -319,6 +342,14 @@ proxies:
   auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   sni: deu0003ntrhy01.tcp-reset-club.net
   skip-cert-verify: true
+- name: 🇨🇴 哥伦比亚 | COL 2
+  server: 157.137.210.216
+  port: 62145
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
+  network: tcp
+  udp: true
 - name: 🇱🇻 拉脱维亚 | LVA
   server: 195.123.210.168
   port: 443
@@ -331,6 +362,19 @@ proxies:
     short-id: dd3ff38418d29d22
   servername: eu-west.cendora.ru
   client-fingerprint: qq
+  network: tcp
+- name: 🇬🇧 英国 | GBR
+  server: 5.152.223.193
+  port: 443
+  type: vless
+  uuid: f09a0e10-a32f-4c77-9cb6-63b0823b5ad7
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+  servername: strapi.io
+  client-fingerprint: firefox
   network: tcp
 - name: 🇹🇭 Thailand泰国丨yoyapai.com
   type: vless
@@ -346,19 +390,6 @@ proxies:
       Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
   skip-cert-verify: true
   udp: true
-- name: 🇬🇧 英国 | GBR
-  server: 5.152.223.193
-  port: 443
-  type: vless
-  uuid: f09a0e10-a32f-4c77-9cb6-63b0823b5ad7
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  servername: strapi.io
-  client-fingerprint: firefox
-  network: tcp
 - name: 🇩🇪 德国 | DEU 12
   server: player.wwwinternetvideo.click
   port: 443
@@ -393,6 +424,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG 5
   - 🇸🇬 新加坡 | SGP
   - 🇯🇵 日本 | JPN 4
   - 🇺🇸 美国 | USA 30
@@ -411,21 +443,23 @@ proxy-groups:
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD
   - 🇷🇺 俄罗斯 | RUS
-  - 🇰🇷 韩国 | KOR 20
+  - 🇫🇮 荷蘭
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇩🇪 德国 | DEU 6
   - 🇫🇷 法国 | FRA 9
-  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 8
+  - 🇩🇪 德国 | DEU 11
   - 🇩🇪 德国 | DEU 13
   - 🇩🇪 德国 | DEU 4
   - 🇲🇾 马来西亚 | MYS
   - 🇨🇴 哥伦比亚 | COL
   - 🇮🇩 印尼 | IDN
+  - 🇰🇷 韩国 | KOR 13
   - 🇩🇪 德国 | DEU
+  - 🇨🇴 哥伦比亚 | COL 2
   - 🇱🇻 拉脱维亚 | LVA
-  - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇬🇧 英国 | GBR
+  - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇩🇪 德国 | DEU 12
   - 🇪🇸 西班牙 | ESP
   - 🇩🇪 德国 | DEU 10
@@ -435,6 +469,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
@@ -462,11 +497,12 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 30
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸US美國丨yoyapai.com_5
-  - 🇨🇴 哥伦比亚 | COL
   - 🇫🇷 法国 | FRA 6
+  - 🇨🇴 哥伦比亚 | COL 2
+  - 🇨🇴 哥伦比亚 | COL
   - 🇩🇪 德国 | DEU 2
   url: http://www.gstatic.com/generate_204
   interval: 120
