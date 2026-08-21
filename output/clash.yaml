@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-21T16:58:46.214245+00:00'
+generated-at: '2026-08-21T17:23:50.874644+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: vip-jp-4.hkd4fwmg.vip
@@ -83,26 +83,6 @@ proxies:
   sni: www.microsoft.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 15
-  server: 129.153.203.166
-  port: 50356
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: A23Zvh1OLiC2Y+dr+da8RDCNlqeYEdn6Luu/gWk/6rs=
-- name: 🇺🇸 美国 | USA 19
-  server: 104.19.109.202
-  port: 443
-  type: vless
-  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
-  tls: true
-  servername: cf.udpid.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@zyzzzoao
-    headers:
-      Host: cf.udpid.org
-  udp: true
 - name: 🇺🇸US美國丨yoyapai.com_5
   type: vless
   server: support.zoom.us
@@ -118,21 +98,19 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: k2.cloud--vpn.site
+- name: 🇺🇸 美国 | USA 19
+  server: 104.19.109.202
   port: 443
   type: vless
-  uuid: e75fbac1-efaa-45a2-ac76-ac150cb37329
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
   tls: true
-  alpn:
-  - h2
-  servername: ssl.fastly.com
+  servername: cf.udpid.org
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /@zyzzzoao
     headers:
-      Host: c12.com
+      Host: cf.udpid.org
   udp: true
 - name: 美國丨yoyapai.com_8
   type: vless
@@ -251,13 +229,6 @@ proxies:
     headers:
       Host: cdn4.velnaro.ir
   udp: true
-- name: 🇰🇷 韩国 | KOR 20
-  server: 49.254.204.133
-  port: 1774
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
-  udp: true
 - name: 🇳🇱_NL荷蘭丨yoyapai.com
   type: ss
   server: 82.38.31.35
@@ -293,6 +264,14 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇩🇪 德国 | DEU 11
+  server: replay.wwwinternetvideo.click
+  port: 443
+  type: hysteria2
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  sni: replay.wwwinternetvideo.click
+  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 8
   server: node2.onepanel123.ru
   port: 2087
@@ -307,14 +286,6 @@ proxies:
     headers:
       Host: node2.onepanel123.ru
   udp: true
-- name: 🇩🇪 德国 | DEU 11
-  server: replay.wwwinternetvideo.click
-  port: 443
-  type: hysteria2
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  sni: replay.wwwinternetvideo.click
-  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 13
   server: 130.61.85.53
   port: 59924
@@ -368,6 +339,19 @@ proxies:
   tls: false
   network: tcp
   udp: true
+- name: 🇱🇻 拉脱维亚 | LVA
+  server: 195.123.210.168
+  port: 443
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
+    short-id: dd3ff38418d29d22
+  servername: eu-west.cendora.ru
+  client-fingerprint: qq
+  network: tcp
 - name: 🇹🇭 Thailand泰国丨yoyapai.com
   type: vless
   server: 18.239.134.69
@@ -436,10 +420,8 @@ proxy-groups:
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 19
   - 🇺🇸US美國丨yoyapai.com_5
-  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 19
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 2
   - 🇫🇷 法国 | FRA 6
@@ -450,12 +432,11 @@ proxy-groups:
   - 🇺🇦 乌克兰 | UKR
   - 🇫🇮 荷蘭
   - 🇩🇪 德国 | DEU 3
-  - 🇰🇷 韩国 | KOR 20
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇩🇪 德国 | DEU 6
   - 🇫🇷 法国 | FRA 9
-  - 🇩🇪 德国 | DEU 8
   - 🇩🇪 德国 | DEU 11
+  - 🇩🇪 德国 | DEU 8
   - 🇩🇪 德国 | DEU 13
   - 🇩🇪 德国 | DEU 4
   - 🇲🇾 马来西亚 | MYS
@@ -463,6 +444,7 @@ proxy-groups:
   - 🇮🇩 印尼 | IDN
   - 🇩🇪 德国 | DEU
   - 🇨🇴 哥伦比亚 | COL 2
+  - 🇱🇻 拉脱维亚 | LVA
   - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇬🇧 英国 | GBR
   - 🇩🇪 德国 | DEU 12
@@ -490,10 +472,8 @@ proxy-groups:
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 19
   - 🇺🇸US美國丨yoyapai.com_5
-  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 19
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
@@ -501,13 +481,12 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 30
-  - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 2
   - 🇺🇸US美國丨yoyapai.com_5
+  - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 20
+  - 🇨🇴 哥伦比亚 | COL
   - 🇨🇴 哥伦比亚 | COL 2
   url: http://www.gstatic.com/generate_204
   interval: 120
