@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-21T23:12:35.314908+00:00'
+generated-at: '2026-08-21T23:45:16.386901+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: vip-jp-4.hkd4fwmg.vip
@@ -232,6 +232,13 @@ proxies:
     headers:
       Host: apjhdggyx.com
   udp: true
+- name: 🇰🇷 韩国 | KOR 20
+  server: 49.254.204.133
+  port: 1774
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+  udp: true
 - name: 🇳🇱_NL荷蘭丨yoyapai.com
   type: ss
   server: 82.38.31.35
@@ -326,22 +333,6 @@ proxies:
   auth: l25nJa8z0D5pT6jl
   sni: id-ls-c-4.nebulacloud.win
   skip-cert-verify: true
-- name: 🇰🇷 韩国 | KOR 13
-  server: 150-230-252-217.liao.kdns.fr
-  port: 50160
-  type: hysteria2
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  auth: 9cfc9458e48c028ec03ff86ebc71c744
-  sni: 150-230-252-217.liao.kdns.fr
-  skip-cert-verify: true
-- name: 🇩🇪 德国 | DEU
-  server: deu0003ntrhy01.tcp-reset-club.net
-  port: 443
-  type: hysteria2
-  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-  auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-  sni: deu0003ntrhy01.tcp-reset-club.net
-  skip-cert-verify: true
 - name: 🇨🇴 哥伦比亚 | COL 2
   server: 157.137.210.216
   port: 62145
@@ -350,6 +341,14 @@ proxies:
   tls: false
   network: tcp
   udp: true
+- name: 🇩🇪 德国 | DEU
+  server: deu0003ntrhy01.tcp-reset-club.net
+  port: 443
+  type: hysteria2
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  sni: deu0003ntrhy01.tcp-reset-club.net
+  skip-cert-verify: true
 - name: 🇱🇻 拉脱维亚 | LVA
   server: 195.123.210.168
   port: 443
@@ -444,6 +443,7 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD
   - 🇷🇺 俄罗斯 | RUS
   - 🇫🇮 荷蘭
+  - 🇰🇷 韩国 | KOR 20
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇩🇪 德国 | DEU 6
   - 🇫🇷 法国 | FRA 9
@@ -454,9 +454,8 @@ proxy-groups:
   - 🇲🇾 马来西亚 | MYS
   - 🇨🇴 哥伦比亚 | COL
   - 🇮🇩 印尼 | IDN
-  - 🇰🇷 韩国 | KOR 13
-  - 🇩🇪 德国 | DEU
   - 🇨🇴 哥伦比亚 | COL 2
+  - 🇩🇪 德国 | DEU
   - 🇱🇻 拉脱维亚 | LVA
   - 🇬🇧 英国 | GBR
   - 🇹🇭 Thailand泰国丨yoyapai.com
@@ -497,12 +496,12 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 30
-  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 2
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 15
+  - 🇨🇴 哥伦比亚 | COL
   - 🇫🇷 法国 | FRA 6
   - 🇨🇴 哥伦比亚 | COL 2
-  - 🇨🇴 哥伦比亚 | COL
   - 🇩🇪 德国 | DEU 2
   url: http://www.gstatic.com/generate_204
   interval: 120
