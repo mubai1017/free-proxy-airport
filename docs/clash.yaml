@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-24T12:21:55.640502+00:00'
+generated-at: '2026-08-24T13:28:36.637665+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 3
   server: 202.155.141.87
@@ -45,12 +45,6 @@ proxies:
     short-id: e53048e82bb20077
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 新加坡 | SGP
-  server: 161.118.225.224
-  port: 56927
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: KA1/OAHhawU2vWpzCWzboh5Sy7Pf5oJRaWpUUdVGnVw=
 - name: 🇭🇰 香港 | HKG
   server: 31.57.248.176
   port: 50160
@@ -126,6 +120,12 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸 美国 | USA 3
+  server: 129.146.113.93
+  port: 50356
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: fLNIIbHAv/g58k4JwMx87hCjA8+Uod3DuU7fo6yi1Bk=
 - name: 🇺🇸 美国 | USA 4
   server: 104.16.150.130
   port: 2087
@@ -154,12 +154,14 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 129.146.113.93
-  port: 50356
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: fLNIIbHAv/g58k4JwMx87hCjA8+Uod3DuU7fo6yi1Bk=
+- name: 🇺🇸 美国 | USA
+  server: 40t2.wxgqlfx.vip
+  port: 35193
+  type: hysteria2
+  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
+  auth: 57ec0f01-0c00-4a69-ad67-937b4735640b
+  sni: 40t2.wxgqlfx.vip
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 10
   server: 188.114.97.3
   port: 443
@@ -174,27 +176,6 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇺🇸 美国 | USA
-  server: 40t2.wxgqlfx.vip
-  port: 35193
-  type: hysteria2
-  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  auth: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  sni: 40t2.wxgqlfx.vip
-  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 13
   server: dx.mmhh.eu.cc
   port: 443
@@ -222,6 +203,19 @@ proxies:
     short-id: 0b
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
 - name: 🇺🇸 美国 | USA 14
   server: de-11.th3store.ir
   port: 8080
@@ -236,6 +230,27 @@ proxies:
       Host: de-11.th3store.ir
     v2ray-http-upgrade: true
   udp: true
+- name: 🇬🇧 英国 | GBR 4
+  server: 3.8.123.237
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇩🇪 德国 | DEU 2
+  server: 185.230.44.170
+  port: 9443
+  type: hysteria2
+  password: e5gqbtu97umt992j
+  auth: e5gqbtu97umt992j
+  sni: 185.230.44.170
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 | CAN 2
+  server: 16.52.44.93
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇬🇧 英国 | GBR 6
   server: 78.129.150.216
   port: 443
@@ -266,6 +281,13 @@ proxies:
     headers:
       Host: nl3.meshbeat.online
   udp: true
+- name: 🇰🇷 韩国 | KOR 2
+  server: 49.254.204.133
+  port: 1774
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+  udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: 138.124.98.115
   port: 443
@@ -279,6 +301,12 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇨🇦 加拿大 | CAN
+  server: 15.222.248.181
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇹🇼 🇨🇳 台湾 | TWN
   server: 34.80.120.225
   port: 50160
@@ -297,12 +325,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: SalamanderDE2026
-- name: 🇨🇦 加拿大 | CAN
-  server: 15.222.248.181
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇵🇱PL波兰丨yoyapai.com
   type: vless
   server: 144.31.171.143
@@ -325,12 +347,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
-- name: 🇨🇦 加拿大 | CAN 3
-  server: 3.97.15.59
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇩🇪 德国 | DEU 6
   server: 45.131.212.61
   port: 443
@@ -386,12 +402,12 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇧🇷 巴西 | BRA
-  server: 64.181.171.113
-  port: 59319
+- name: 🇨🇦 加拿大 | CAN 3
+  server: 3.97.15.59
+  port: 443
   type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: OYAoH+Rfx3SHm6POtoPiRHDXs/hWB8AviM1xxUek39c=
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇩🇪 德国 | DEU 4
   server: 130.61.145.58
   port: 59924
@@ -440,12 +456,6 @@ proxies:
   client-fingerprint: edge
   network: tcp
   udp: true
-- name: 🇨🇦 加拿大 | CAN 4
-  server: 99.79.128.42
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇳🇱 荷兰 | NLD 2
   server: 176.65.151.86
   port: 37430
@@ -518,20 +528,6 @@ proxies:
   auth: 0bacdaea-099b-462b-b625-d7d44c89aace
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇹🇭 Thailand泰国丨yoyapai.com
-  type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: true
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 5
   server: nl-one.letsgodance.site
   port: 443
@@ -565,42 +561,43 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 3
   - 🇯🇵 日本 | JPN 8
   - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 🇸🇬 新加坡 | SGP
   - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
   - 🇭🇰 香港 | HKG 8
   - 🇺🇸 美国 | USA 11
   - 🇺🇸US美國丨yoyapai.com_6
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 10
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美國節點丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 14
+  - 🇬🇧 英国 | GBR 4
+  - 🇩🇪 德国 | DEU 2
+  - 🇨🇦 加拿大 | CAN 2
   - 🇬🇧 英国 | GBR 6
   - 🇩🇪 德国 | DEU 7
+  - 🇰🇷 韩国 | KOR 2
   - 🇳🇱 荷兰 | NLD
+  - 🇨🇦 加拿大 | CAN
   - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇩🇪 德国 | DEU 3
-  - 🇨🇦 加拿大 | CAN
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
-  - 🇨🇦 加拿大 | CAN 3
   - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 8
   - 🇨🇭 瑞士 | CHE
   - 🇵🇱 波兰 | POL 2
-  - 🇧🇷 巴西 | BRA
+  - 🇨🇦 加拿大 | CAN 3
   - 🇩🇪 德国 | DEU 4
   - 🇬🇧 英国 | GBR 2
   - 🇫🇷 法国 | FRA 4
   - 🇪🇪爱沙尼亚丨yoyapai.com
   - 🇳🇱 荷兰 | NLD 6
-  - 🇨🇦 加拿大 | CAN 4
   - 🇳🇱 荷兰 | NLD 2
   - 🇮🇩 印尼 | IDN
   - 🇫🇷 法国 | FRA 2
@@ -609,7 +606,6 @@ proxy-groups:
   - 🇬🇧 英国 | GBR 3
   - 🇦🇱 AL_43
   - 🇬🇧 英国 | GBR
-  - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇳🇱 荷兰 | NLD 5
   - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
@@ -634,14 +630,14 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸US美國丨yoyapai.com_6
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 10
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美國節點丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 14
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -649,15 +645,15 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 4
+  - 🇨🇦 加拿大 | CAN
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 5
-  - 🇨🇦 加拿大 | CAN 3
-  - 🇨🇦 加拿大 | CAN 4
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 4
+  - 🇨🇦 加拿大 | CAN 3
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇬🇧 英国 | GBR 2
-  - 🇫🇷 法国 | FRA 2
+  - 🇬🇧 英国 | GBR 4
+  - 🇩🇪 德国 | DEU 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
