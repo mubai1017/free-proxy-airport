@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-06T21:48:34.823255+00:00'
+generated-at: '2026-09-06T23:19:38.136948+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 4
   server: v33.hdacd.com
@@ -104,18 +104,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA
-  server: 162.159.43.187
-  port: 8880
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
 - name: 🇺🇸 美国 | USA 7
   server: 147.224.12.19
   port: 443
@@ -126,13 +114,12 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 7a5537b116d923fe572f85f1db7fe501
-- name: 🇺🇸 美国 | USA 10
-  server: 162.159.38.127
-  port: 2052
+- name: 🇺🇸 美国 | USA
+  server: 162.159.43.187
+  port: 8880
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   network: ws
   ws-opts:
     path: /?ed=2560security=tls
@@ -151,6 +138,26 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
+- name: 🇺🇸 美国 | USA 10
+  server: 162.159.38.127
+  port: 2052
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  udp: true
+- name: 🇺🇸 美国 | USA 2
+  server: 15.204.233.41
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
 - name: 🇺🇸 美国 | USA 12
   server: 172.64.52.173
   port: 2087
@@ -165,12 +172,26 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 2
-  server: 15.204.233.41
-  port: 8882
+- name: 🇨🇦 加拿大 | CAN 2
+  server: 3.96.202.83
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇹🇭TH泰国丨yoyapai.com
+  type: vless
+  server: 18.239.134.69
+  port: 80
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  network: ws
+  tls: false
+  client-fingerprint: safari
+  ws-opts:
+    path: /
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+  skip-cert-verify: false
   udp: true
 - name: 🇬🇧 英国 | GBR 4
   server: 134.65.60.243
@@ -178,6 +199,23 @@ proxies:
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: ExPNDBZzUC/Jjs1+JpVlovzA+LE0RxQNHDfwGbceORs=
+  udp: true
+- name: 🇩🇪 德国 | DEU 2
+  server: xs13.mcufa.pro
+  port: 443
+  type: vless
+  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
+  tls: true
+  servername: xs13.mcufa.pro
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/minecraft178/sync/
+    host: xs13.mcufa.pro
+    mode: packet-up
+    sc-max-each-post-bytes: 1000000
+    uplink-data-placement: body
+    uplink-http-method: GET
   udp: true
 - name: 🇬🇧 英国 | GBR 6
   server: 176.109.88.216
@@ -221,16 +259,16 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇳🇱 荷兰 | NLD
-  server: 92.5.225.187
+- name: 🇳🇱 荷兰 | NLD 4
+  server: 141.144.198.50
   port: 62145
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   tls: false
   network: tcp
   udp: true
-- name: 🇳🇱 荷兰 | NLD 4
-  server: 141.144.198.50
+- name: 🇳🇱 荷兰 | NLD
+  server: 92.5.225.187
   port: 62145
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
@@ -356,19 +394,6 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪 德国 | DEU
-  server: 5.83.129.153
-  port: 20088
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 50 Mbps
-  down: 100 Mbps
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇳🇱 荷兰 | NLD 3
   server: 94.228.219.183
   port: 443
@@ -398,18 +423,18 @@ proxies:
   ws-opts:
     path: /api/v1/gpu-stream/socket
   udp: true
-- name: 🇨🇳 CN_12
-  server: 121.46.230.232
-  port: 65443
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
 - name: 🇬🇧 英国 | GBR 3
   server: 129.151.67.2
   port: 61312
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: 3vT67+EiRIaupWjM/LZ8PtZ9r11vRs8eqF59FKRdvxk=
+- name: 🇨🇳 CN_12
+  server: 121.46.230.232
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
 - name: 🇬🇧 英国 | GBR
   server: 50.7.226.171
   port: 443
@@ -430,6 +455,14 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
+- name: 🇳🇱 荷兰 | NLD 5
+  server: 92.5.228.124
+  port: 62145
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
+  network: tcp
+  udp: true
 - name: 🇬🇧 英国 | GBR 8
   server: 129.151.69.35
   port: 61312
@@ -448,18 +481,21 @@ proxy-groups:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA 12
+  - 🇨🇦 加拿大 | CAN 2
+  - 🇹🇭TH泰国丨yoyapai.com
   - 🇬🇧 英国 | GBR 4
+  - 🇩🇪 德国 | DEU 2
   - 🇬🇧 英国 | GBR 6
   - 🇩🇪 德国 | DEU 7
   - 🇲🇩 摩尔多瓦 | MDA
-  - 🇳🇱 荷兰 | NLD
   - 🇳🇱 荷兰 | NLD 4
+  - 🇳🇱 荷兰 | NLD
   - 🇩🇪 德国 | DEU 5
   - 🇦🇹 奥地利 | AUT
   - 🇵🇱PL波兰丨yoyapai.com
@@ -472,13 +508,13 @@ proxy-groups:
   - 🇩🇪 德国 | DEU 4
   - 🇲🇾 马来西亚 | MYS
   - 🇩🇪DE德国丨yoyapai.com_11
-  - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
   - 🇷🇺RU俄罗斯
-  - 🇨🇳 CN_12
   - 🇬🇧 英国 | GBR 3
+  - 🇨🇳 CN_12
   - 🇬🇧 英国 | GBR
   - 🇬🇧 英国 | GBR 5
+  - 🇳🇱 荷兰 | NLD 5
   - 🇬🇧 英国 | GBR 8
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -502,25 +538,25 @@ proxy-groups:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 12
+  - 🇨🇦 加拿大 | CAN 2
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 10
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
