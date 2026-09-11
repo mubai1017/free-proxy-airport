@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-11T18:41:18.816647+00:00'
+generated-at: '2026-09-11T21:24:43.024307+00:00'
 proxies:
 - name: 🇭🇰HK香港丨yoyapai.com_9
   type: vmess
@@ -37,20 +37,6 @@ proxies:
     headers:
       Host: ot2.hyas.space
   udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: 91.193.58.131
-  port: 2096
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  tls: true
-  servername: free-server.techsonic.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-  udp: true
 - name: 🇸🇬 新加坡 | SGP
   server: 172.64.146.211
   port: 2083
@@ -65,6 +51,20 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
+- name: 🇸🇬 新加坡 | SGP 3
+  server: 91.193.58.131
+  port: 2096
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+  udp: true
 - name: 🇭🇰 香港 | HKG
   server: 207.57.131.123
   port: 26631
@@ -78,14 +78,17 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 9
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.top
-  auth: https://xship.top
-  sni: xship.top
-  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 11
+  server: 104.18.46.234
+  port: 2095
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
 - name: 🇺🇸 美国 | USA 8
   server: 85.9.194.75
@@ -95,6 +98,15 @@ proxies:
   tls: false
   encryption: mlkem768x25519plus.native.0rtt.axhmyvi6WAeIVHyKYLuHz7cMMow5FBwwSjs9-TIWxRY
   network: tcp
+  udp: true
+- name: 🇺🇸 美国 | USA 9
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.top
+  auth: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
   udp: true
 - name: 🇺🇸 美国 | USA 16
   server: starlink-ft.251313.xyz
@@ -132,18 +144,20 @@ proxies:
     path: /proxyip=154.3.33.43
     headers:
       Host: mianfei-73q.pages.dev
-- name: 🇺🇸 美国 | USA 14
-  server: 144.172.104.26
+- name: 🇺🇸 美国 | USA 5
+  server: 104.21.103.254
   port: 443
-  type: vless
-  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: n25FmewpAEsvLl9Vr0bRFcz044f4IE7orWeWOzu8rwk
-  servername: www.nvidia.com
-  client-fingerprint: firefox
-  network: tcp
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
   udp: true
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
@@ -156,6 +170,19 @@ proxies:
   skip-cert-verify: false
   ws-opts:
     path: /assignment
+  udp: true
+- name: 🇺🇸 美国 | USA 14
+  server: 144.172.104.26
+  port: 443
+  type: vless
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: n25FmewpAEsvLl9Vr0bRFcz044f4IE7orWeWOzu8rwk
+  servername: www.nvidia.com
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 12
   server: 172.64.53.42
@@ -191,6 +218,22 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 161.104.38.98
+  port: 443
+  type: vless
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  tls: true
+  reality-opts:
+    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
+    short-id: 8ba6e72ee60667f6
+  servername: donatov.net
+  client-fingerprint: edge
+  network: xhttp
+  xhttp-opts:
+    path: /assets
+    host: donatov.net
   udp: true
 - name: 🇦🇹 奥地利 | AUT
   server: 82.110.60.9
@@ -257,6 +300,19 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+- name: 🇫🇷 法国 | FRA 10
+  server: 172.64.152.23
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_11
   type: vless
   server: 169.40.42.229
@@ -271,20 +327,18 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇱🇻 拉脱维亚 | LVA
-  server: lv-irancell.xelfona.ir
-  port: 20018
-  type: vless
-  uuid: 028f3908-8885-4f06-ba95-777a435074bd
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+- name: 🇬🇧 英国 | GBR 2
+  server: 82.117.245.125
+  port: 2053
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
     headers:
-      Host:
-      - play-apps-features.googleusercontent.com
+      Host: www.calmlunch.com
   udp: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: 158.101.199.87
@@ -312,27 +366,31 @@ proxy-groups:
   proxies:
   - 🇭🇰HK香港丨yoyapai.com_9
   - 🇯🇵 日本 | JPN 2
-  - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP
+  - 🇸🇬 新加坡 | SGP 3
   - 🇭🇰 香港 | HKG
-  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 14
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
   - 🇩🇪 德国 | DEU 2
   - 🇨🇦 加拿大 | CAN
+  - 🇷🇺 俄罗斯 | RUS
   - 🇦🇹 奥地利 | AUT
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇦🇺 澳大利亚 | AUS
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇮🇹 意大利 | ITA
   - 🇦🇺 澳大利亚 | AUS 2
+  - 🇫🇷 法国 | FRA 10
   - 🇩🇪DE德国丨yoyapai.com_11
-  - 🇱🇻 拉脱维亚 | LVA
+  - 🇬🇧 英国 | GBR 2
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR
   - 🇬🇧 英国 | GBR 3
@@ -354,13 +412,15 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 14
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -368,10 +428,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦 加拿大 | CAN
-  - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA
+  - 🇩🇪DE德国丨yoyapai.com_11
+  - 🇨🇦 加拿大 | CAN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
