@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-12T21:05:19.385683+00:00'
+generated-at: '2026-09-12T23:07:28.035692+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP 7
   server: 162.159.43.187
@@ -30,19 +30,6 @@ proxies:
   auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: 217.217.254.126
-  port: 2053
-  type: vless
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  tls: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-    short-id: 87829de0e2bb82cb
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 4
   server: 162.159.43.187
   port: 8080
@@ -55,6 +42,19 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: 217.217.254.126
+  port: 2053
+  type: vless
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  tls: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+    short-id: 87829de0e2bb82cb
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 11
   server: 104.17.156.73
@@ -83,15 +83,6 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 9
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.top
-  auth: https://xship.top
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
 - name: 🇺🇸 美国 | USA 4
   server: 104.18.46.234
   port: 2082
@@ -104,9 +95,18 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 172.64.32.108
-  port: 2086
+- name: 🇺🇸 美国 | USA 9
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.top
+  auth: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: 162.159.43.187
+  port: 8880
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
@@ -129,18 +129,6 @@ proxies:
     path: /proxyip=154.3.33.43
     headers:
       Host: mianfei-73q.pages.dev
-- name: 🇺🇸 美国 | USA 5
-  server: 162.159.43.187
-  port: 8880
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
 - name: 🇺🇸 美国 | USA
   server: 162.159.48.32
   port: 80
@@ -148,6 +136,18 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
   servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  udp: true
+- name: 🇺🇸 美国 | USA 3
+  server: 172.64.32.108
+  port: 2086
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
   network: ws
   ws-opts:
     path: /?ed=2560security=tls
@@ -180,20 +180,6 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 14
-  server: 169.40.42.224
-  port: 443
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: ios
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国 | USA 12
   server: 172.64.32.108
   port: 8880
@@ -207,18 +193,18 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 2
-  server: 172.96.141.210
-  port: 8443
+- name: 🇺🇸 美国 | USA 14
+  server: 169.40.42.224
+  port: 443
   type: vless
-  uuid: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: Y0zCjvOLHuHWgv4HUyqb9O0lSMnTrl26XO8qwnWoQXw
-    short-id: b85875a13da4
-  servername: room.rootvana.top
-  client-fingerprint: safari
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
   network: tcp
   udp: true
 - name: 🇩🇪 德国 | DEU 2
@@ -361,6 +347,20 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: c58d16e593d44f42
   udp: true
+- name: 🇩🇪 德国 | DEU 4
+  server: 31.76.7.154
+  port: 7443
+  type: vless
+  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  servername: ya.ru
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: 🇾🇪 YE_128
   server: z-jp2.1card.cc
   port: 10010
@@ -368,14 +368,6 @@ proxies:
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   sni: www.cloudflare.com
   skip-cert-verify: true
-  udp: true
-- name: 🇨🇴 哥伦比亚 | COL
-  server: 157.137.209.135
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
   udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_11
   type: vless
@@ -399,6 +391,14 @@ proxies:
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇴 哥伦比亚 | COL
+  server: 157.137.209.135
+  port: 62145
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
   network: tcp
   udp: true
 - name: 🇩🇪 德国 | DEU
@@ -499,21 +499,20 @@ proxy-groups:
   proxies:
   - 🇸🇬 新加坡 | SGP 7
   - 🇸🇬 新加坡 | SGP 5
-  - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 4
+  - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 17
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA 14
   - 🇩🇪 德国 | DEU 2
   - 🇶🇦 QA_108
   - 🇦🇫 AF_89
@@ -526,10 +525,11 @@ proxy-groups:
   - 🇩🇪 德国 | DEU 6
   - 🇶🇦 QA_107
   - 🇬🇧 英国 | GBR 2
+  - 🇩🇪 德国 | DEU 4
   - 🇾🇪 YE_128
-  - 🇨🇴 哥伦比亚 | COL
   - 🇩🇪DE德国丨yoyapai.com_11
   - 🇳🇱 荷兰 | NLD 2
+  - 🇨🇴 哥伦比亚 | COL
   - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
   - 🇳🇴 挪威 | NOR 3
@@ -543,8 +543,8 @@ proxy-groups:
   proxies:
   - 🇸🇬 新加坡 | SGP 7
   - 🇸🇬 新加坡 | SGP 5
-  - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 4
+  - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 11
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -553,8 +553,8 @@ proxy-groups:
   proxies:
   - 🇸🇬 新加坡 | SGP 7
   - 🇸🇬 新加坡 | SGP 5
-  - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 4
+  - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 11
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -563,29 +563,28 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 17
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA 14
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 12
-  - 🇸🇬 新加坡 | SGP 4
-  - 🇸🇬 新加坡 | SGP 7
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 4
+  - 🇸🇬 新加坡 | SGP 4
+  - 🇺🇸 美国 | USA 12
+  - 🇸🇬 新加坡 | SGP 7
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
