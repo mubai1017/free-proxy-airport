@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-16T21:50:25.912023+00:00'
+generated-at: '2026-09-16T23:57:01.625759+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP 3
   server: 172.64.146.211
@@ -65,12 +65,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 18.191.174.144
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇺🇸 美国 | USA 4
   server: 104.16.151.21
   port: 443
@@ -85,6 +79,12 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
+- name: 🇺🇸 美国 | USA 3
+  server: 18.191.174.144
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇺🇸 美国 | USA 5
   server: 172.64.146.211
   port: 2083
@@ -170,15 +170,6 @@ proxies:
     headers:
       Host: queuev4.vk.com
   udp: true
-- name: 🇳🇱 荷兰 | NLD 7
-  server: 158.101.214.23
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  servername: 158.101.214.23
-  network: tcp
-  udp: true
 - name: 🇩🇪 德国 | DEU 2
   server: 212.16.92.111
   port: 443
@@ -192,22 +183,34 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇬🇧 英国 | GBR 6
-  server: vpn-uk-001.fastervpn.world
+- name: 🇳🇱 荷兰 | NLD 8
+  server: 188.72.103.4
   port: 443
-  type: hysteria2
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🇳🇱 荷兰 | NLD 4
-  server: 158.101.197.145
-  port: 62145
   type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  servername: 158.101.197.145
-  network: tcp
+  uuid: 746280a0-2d7a-445f-8434-dc260ddaedbf
+  tls: true
+  alpn:
+  - h2
+  - http/1.1
+  servername: x1.astrav2.online
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /static/js/app-8d2f/
+    host: x1.astrav2.online
+    mode: packet-up
+    seq-key: part_index
+    seq-placement: cookie
+    session-key: token
+    session-placement: header
+    uplink-data-placement: body
+    uplink-http-method: GET
+    x-padding-bytes: 96-1040
+    x-padding-header: X-Media-Token
+    x-padding-key: _t
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
   udp: true
 - name: 🇦🇹 奥地利 | AUT
   server: at-dedic-2.failspace.top
@@ -245,12 +248,6 @@ proxies:
   obfs: salamander
   obfs-password: a34f3990b69f44bfa0d32385
   ports: 20000-30000
-- name: 🇩🇪 德国 | DEU 6
-  server: 18.199.98.219
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇵🇱 波兰 | POL
   server: poland-new-dedic-2.failspace.top
   port: 443
@@ -277,19 +274,6 @@ proxies:
       Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪 德国 | DEU 8
-  server: 212.16.92.112
-  port: 443
-  type: vless
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: jobinvest.ru
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_13
   type: vless
   server: 169.40.42.229
@@ -303,6 +287,19 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   skip-cert-verify: false
+  udp: true
+- name: 🇩🇪 德国 | DEU 8
+  server: 212.16.92.112
+  port: 443
+  type: vless
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: jobinvest.ru
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇵🇱 波兰 | POL 2
   server: poland-new-decic-1.failspace.top
@@ -375,12 +372,6 @@ proxies:
   ws-opts:
     path: /api/v1/gpu-stream/socket
   udp: true
-- name: 🇬🇧 英国 | GBR
-  server: 144.24.226.100
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: U/JCe7Gq8z+hTeMcZTHvLsueYpo+YGZdxT/egK5sd8c=
 - name: 🇬🇧 英国 | GBR 5
   server: uk-dedic-new-1.failspace.top
   port: 443
@@ -408,33 +399,29 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP
   - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 12
-  - 🇳🇱 荷兰 | NLD 7
   - 🇩🇪 德国 | DEU 2
-  - 🇬🇧 英国 | GBR 6
-  - 🇳🇱 荷兰 | NLD 4
+  - 🇳🇱 荷兰 | NLD 8
   - 🇦🇹 奥地利 | AUT
   - 🇩🇪 德国 | DEU 5
   - 🇦🇺 澳大利亚 | AUS
-  - 🇩🇪 德国 | DEU 6
   - 🇵🇱 波兰 | POL
   - 🇦🇺AU澳大利亚丨yoyapai.com
-  - 🇩🇪 德国 | DEU 8
   - 🇩🇪DE德国丨yoyapai.com_13
+  - 🇩🇪 德国 | DEU 8
   - 🇵🇱 波兰 | POL 2
   - 🇩🇪 德国 | DEU 4
   - 🇬🇧 英国 | GBR 2
   - 🇩🇪 德国 | DEU 9
   - 🇩🇪 德国 | DEU
   - 🇷🇺RU俄罗斯
-  - 🇬🇧 英国 | GBR
   - 🇬🇧 英国 | GBR 5
   - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
@@ -446,7 +433,7 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP
   - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
@@ -459,8 +446,8 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA
@@ -473,11 +460,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 6
-  - 🇸🇬 新加坡 | SGP
+  - 🇺🇸 美国 | USA 4
   - 🇸🇬 新加坡 | SGP 3
-  - 🇺🇸 美国 | USA 3
+  - 🇸🇬 新加坡 | SGP
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
