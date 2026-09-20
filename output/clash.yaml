@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-20T21:40:49.370524+00:00'
+generated-at: '2026-09-20T23:39:49.420961+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: 45.152.66.160
@@ -75,18 +75,6 @@ proxies:
     headers:
       Host: adheres-scruple.quick-cdn.net
   udp: true
-- name: 🇭🇰 香港 | HKG 5
-  server: 193.134.211.12
-  port: 40229
-  type: vless
-  uuid: fd33946a-ad66-48bb-bece-36a19009a20e
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: NdYhIYluMQg_VZTxYc9DtlCWl6bNDXS421HBsTECaBE
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
 - name: 🇸🇬 新加坡 | SGP
   server: 162.159.43.187
   port: 80
@@ -100,6 +88,18 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
+- name: 🇭🇰 香港 | HKG 5
+  server: 193.134.211.12
+  port: 40229
+  type: vless
+  uuid: fd33946a-ad66-48bb-bece-36a19009a20e
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: NdYhIYluMQg_VZTxYc9DtlCWl6bNDXS421HBsTECaBE
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
 - name: 🇯🇵 日本 | JPN
   server: jp3.998998.best
   port: 443
@@ -271,27 +271,6 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
   udp: true
-- name: 🇱🇻LV拉脱维亚丨yoyapai.com
-  type: vless
-  server: 193.163.203.170
-  port: 443
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  servername: yandex.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
-  skip-cert-verify: false
-  udp: true
-- name: 🇩🇪 德国 | DEU 3
-  server: 130.61.84.223
-  port: 59924
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: RQ/Pmz291j6t2nRAaCbztGTzWRjdPqP3WXIIbXO0BSM=
-  udp: true
 - name: 🇪🇪 爱沙尼亚 | EST
   server: 5.101.114.44
   port: 2053
@@ -397,20 +376,6 @@ proxies:
     host: denet1.17e1feeuzi.online
     mode: stream-one
   udp: true
-- name: 🇩🇪 德国 | DEU 10
-  server: 2.27.48.140
-  port: 443
-  type: vless
-  uuid: 7cbc0c1f-9aa1-4a4c-a052-45ccc855df10
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: Ax1xKjjBS7afZ94zHY-9iI7hohBmzA-EpS-eRILX2CA
-    short-id: c66279532e2e
-  servername: intel.com
-  client-fingerprint: safari
-  network: tcp
-  udp: true
 - name: 🇪🇸 西班牙 | ESP
   server: es.cache-4d8a.com
   port: 443
@@ -427,6 +392,20 @@ proxies:
     grpc-mode: gun
     grpc-service-name: grpc
   udp: true
+- name: 🇩🇪 德国 | DEU 10
+  server: 2.27.48.140
+  port: 443
+  type: vless
+  uuid: 7cbc0c1f-9aa1-4a4c-a052-45ccc855df10
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Ax1xKjjBS7afZ94zHY-9iI7hohBmzA-EpS-eRILX2CA
+    short-id: c66279532e2e
+  servername: intel.com
+  client-fingerprint: safari
+  network: tcp
+  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
@@ -436,8 +415,8 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
   - 🇯🇵 日本 | JPN 2
-  - 🇭🇰 香港 | HKG 5
   - 🇸🇬 新加坡 | SGP
+  - 🇭🇰 香港 | HKG 5
   - 🇯🇵 日本 | JPN
   - 🇭🇰 香港 | HKG 8
   - 🇺🇸 美国 | USA 9
@@ -451,8 +430,6 @@ proxy-groups:
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 12
   - 🇬🇧 英国 | GBR 4
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇩🇪 德国 | DEU 3
   - 🇪🇪 爱沙尼亚 | EST
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇦🇺AU澳大利亚丨yoyapai.com
@@ -461,8 +438,8 @@ proxy-groups:
   - 🇩🇪 德国 | DEU 9
   - 🇩🇪DE德国丨yoyapai.com_12
   - 🇩🇪 德国 | DEU 12
-  - 🇩🇪 德国 | DEU 10
   - 🇪🇸 西班牙 | ESP
+  - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -502,11 +479,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 6
   - 🇸🇬 新加坡 | SGP
+  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
