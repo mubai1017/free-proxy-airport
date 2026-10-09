@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-09T19:08:53.349966+00:00'
+generated-at: '2026-10-09T23:22:22.127519+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 4
   server: 47.76.44.32
@@ -56,21 +56,14 @@ proxies:
   sni: fond-mammoth.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰 香港 | HKG
-  server: 8.218.195.61
-  port: 443
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
+- name: 🇯🇵 日本 | JPN 4
+  server: 139.28.168.126
+  port: 8080
+  type: hysteria2
+  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
+  auth: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
+  sni: hopp-honkong-new.roxa.org
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 2
   server: brave-tomcat.rooster465.autos
   port: 443
@@ -90,16 +83,6 @@ proxies:
   alpn:
   - ''
   skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  server: gz2.australiacaregroup.site
-  port: 7822
-  type: vless
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  tls: true
-  servername: sy.australiacaregroup.site
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 - name: 🇺🇸美国丨yoyapai.com
   type: vless
@@ -145,14 +128,13 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 8
-  server: sg4.vatilon.cc
-  port: 10003
-  type: trojan
+- name: 🇺🇸 美国 | USA 17
+  server: us.australiacaregroup.site
+  port: 10004
+  type: hysteria2
   password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  sni: sg4.vatilon.cc
+  auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
   skip-cert-verify: true
-  udp: true
 - name: 🇺🇸US美国丨yoyapai.com_3
   type: trojan
   server: 216.24.57.7
@@ -165,13 +147,6 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 12
-  server: rb1211-4.vatilon.cc
-  port: 10004
-  type: hysteria2
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 22
   server: 103.11.76.248
   port: 28679
@@ -179,6 +154,13 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: NzJlOTQ5NWYtM2ZkYi00Cg==
   udp: true
+- name: 🇺🇸 美国 | USA 12
+  server: rb1211-4.vatilon.cc
+  port: 10004
+  type: hysteria2
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  skip-cert-verify: true
 - name: 🇿🇦 南非 | ZAF
   server: 34.35.189.111
   port: 443
@@ -253,6 +235,20 @@ proxies:
       Host: love-paris.roxa.org
     v2ray-http-upgrade: true
   udp: true
+- name: 🇦🇺 澳大利亚 | AUS
+  server: 2610sgdodo.volkvpn.com
+  port: 35715
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: 54cca3c1c1c7
+  servername: www.apple.com
+  client-fingerprint: ios
+  network: tcp
+  udp: true
 - name: 🇮🇪 爱尔兰 | IRL
   server: adapting-basilisk.rooster465.autos
   port: 443
@@ -260,6 +256,20 @@ proxies:
   password: UX82473651
   sni: adapting-basilisk.rooster465.autos
   skip-cert-verify: true
+  udp: true
+- name: 🇩🇪DE德国丨yoyapai.com_13
+  type: vless
+  server: 169.40.42.229
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: false
   udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: 2.28.142.170
@@ -314,6 +324,19 @@ proxies:
     grpc-mode: gun
     grpc-service-name: GunService
   udp: true
+- name: 🇬🇧 英国 | GBR
+  server: 40.120.36.23
+  port: 26460
+  type: vless
+  uuid: 234ff65c-35e8-4ff6-a1e7-cce6acb2f3e2
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: rnykCyLboP7HiOwx0Tfo5OSUVaJXbSMOB9MKkEZ_Xh8
+  servername: addons.mozilla.org
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
@@ -322,41 +345,43 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 2
   - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP
-  - 🇭🇰 香港 | HKG
+  - 🇯🇵 日本 | JPN 4
   - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
-  - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸美国丨yoyapai.com
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸US美国丨yoyapai.com_3
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 22
+  - 🇺🇸 美国 | USA 12
   - 🇿🇦 南非 | ZAF
   - 🇩🇪 德国 | DEU 2
   - 🇰🇷 韩国 | KOR 2
   - 🇳🇱 荷兰 | NLD
   - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 5
+  - 🇦🇺 澳大利亚 | AUS
   - 🇮🇪 爱尔兰 | IRL
+  - 🇩🇪DE德国丨yoyapai.com_13
   - 🇩🇪 德国 | DEU 4
   - 🇮🇩 印尼 | IDN
   - 🇫🇷 法国 | FRA 2
   - 🇹🇷 土耳其 | TUR 2
+  - 🇬🇧 英国 | GBR
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 4
-  - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -366,20 +391,20 @@ proxy-groups:
   - 🇺🇸美国丨yoyapai.com
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸US美国丨yoyapai.com_3
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 22
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸US美国丨yoyapai.com_3
-  - 🇫🇷 法国 | FRA 2
-  - 🇮🇪 爱尔兰 | IRL
   - 🇺🇸 美国 | USA 22
-  - 🇩🇪 德国 | DEU 5
+  - 🇺🇸US美国丨yoyapai.com_3
+  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 17
+  - 🇩🇪DE德国丨yoyapai.com_13
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
